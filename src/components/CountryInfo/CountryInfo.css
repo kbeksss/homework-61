@@ -1,0 +1,22 @@
+.PlaceHolder{
+    width: 200px;
+    margin: 100px auto 0;
+}
+.CountryInfo{
+    border: 3px solid #83ba6a;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px 10px 0 15px;
+    width: 65%;
+}
+.Top-Info, .Middle-Info{
+    border: 1px solid #83ba6a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+.General{
+    text-align: left;
+}
