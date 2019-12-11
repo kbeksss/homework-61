@@ -10,7 +10,6 @@ class CountryInfo extends Component {
     async componentDidUpdate(prevProps, prevState, snapshot) {
         if(this.props.code && this.props.code !== prevProps.code){
             const response = await axios.get('https://restcountries.eu/rest/v2/alpha/' + this.props.code);
-            console.log(response.data);
             const borders = [];
             for (const code of response.data.borders) {
                 const response = await axios.get('https://restcountries.eu/rest/v2/alpha/' + code);
