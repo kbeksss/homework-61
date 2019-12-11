@@ -9,7 +9,7 @@
     padding: 15px 10px 0 15px;
     width: 65%;
 }
-.Top-Info, .Middle-Info{
+.Top-Info, .Middle-Info, .Bottom-Info{
     border: 1px solid #83ba6a;
     border-radius: 10px;
     display: flex;
@@ -19,4 +19,8 @@
 }
 .General{
     text-align: left;
+}
+.Region p{
+    font-size: 20px;
+    margin: 10px 0;
 }
